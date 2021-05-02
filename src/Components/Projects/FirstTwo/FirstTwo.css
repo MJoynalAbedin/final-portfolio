@@ -1,0 +1,62 @@
+.tech-edu p{
+    color: rgb(214, 210, 210);
+}
+
+.education-text h1, .tech-text h1{
+    color: #FF5722
+}
+
+.education-text{
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.education img{
+    float: right;
+    width: 90%;
+    margin: 50px -10px 50px 0px;
+    border-radius: 20px 0px 0px 20px;
+    box-shadow: 0px 0px 10px 5px  #09090a;
+}
+.tech-img img{
+    margin-left: -10px;
+    width: 90%;
+    border-radius: 0px 20px 20px 0px;
+    box-shadow: 0px 0px 10px 5px  #09090a;
+}
+
+
+@media(max-width: 770px){
+
+    .education{
+        display: flex;
+        justify-content: center;
+    }
+
+    .education img, .tech-edu img{
+        width: 400px;
+        border-radius: 10px;
+        margin: auto;
+    }
+    .card-color{
+        margin: 0px 25px 0px 25px;
+    }
+    .education-text, .tech-img{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        margin: 30px 0px 20px 0px;
+    }
+    .image-class{
+        margin-top: 20px;
+    }
+    .tech-text{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: -50px;
+    }
+
+}

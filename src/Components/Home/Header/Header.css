@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header-section{
+    box-sizing: border-box;
+    font-family: Cambria, Cochin;
+    height: 99vh;
+    width: 100%;
+    background: linear-gradient(180deg, #090909, #353434), url(../../../images/bg.jpg);
+    background-blend-mode: screen;
+    background-position: center;
+    overflow: hidden;
+}
+
+.waves {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.content h1{
+    font-weight: 600;
+}
+.myImage{
+    width: 300px;
+}
+.content{
+    color: #fff;
+    max-width: 700px;
+}
+@media (max-width: 768px){
+    .content{
+        margin-top: 30px;
+    }
+}
