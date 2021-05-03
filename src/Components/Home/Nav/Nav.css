@@ -1,24 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Girassol&family=IBM+Plex+Serif:wght@600&family=Sacramento&display=swap');
 .nav-li-style{
     font-size: 20px;
     color: white!important;
-    font-weight: 500;
+    font-weight: 400;
     font-family: Georgia;
+}
+.nav-li-style:hover{
+    color: #ff5722!important
 }
 
 .logo-style{
     font-size: 30px!important;
     color: white!important;
-    font-weight: 600;
-    font-family: Cambria, Cochin;
+    font-weight: 500;
+    font-family: 'Girassol', cursive;
+    font-family: 'IBM Plex Serif', serif;
+    font-family: 'Sacramento', cursive;
 }
-
+.logo-style:hover{
+    color: #ff5722!important;
+    font-size: 35px!important
+}
 .bg-of-nav{
     background-color: hsl(0, 0%, 4%, 40%);
 }
-.custom-toggler .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-  }
-
-  .custom-toggler .navbar-toggler {
-    border-color: rgb(255, 255, 255);
-  }
+.navbar-toggler {
+    border-color: rgb(255, 255, 255)!important;
+    color: white!important;
+}

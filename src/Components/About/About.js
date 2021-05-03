@@ -1,14 +1,15 @@
 import React from 'react';
 import Nav from '../Home/Nav/Nav';
-import MyImg from '../../images/myImage.png'
+import MyImg from '../../images/myImage.png';
+import SkillOfMine from './SkillOfMine/SkillOfMine'
 
 const About = () => {
     return (
-        <div style={{ height: '100vh', backgroundColor: '#292929' }}>
+        <div className="pb-5" style={{ paddingTop: '100px', backgroundColor: '#292929', fontFamily: 'Georgia'}}>
             <Nav />
-            <div style={{ height: '100vh', }} className="d-flex container align-items-center justify-content-center">
-                <div class="card bg-dark border-warning mb-3" style={{ maxWidth: '38rem' }}>
-                    <h3 style={{color: 'skyblue'}} class="card-header text-center">Junior React JS Developer</h3>
+            <div style={{ height: '85vh', }} className="d-flex container align-items-center justify-content-center">
+                <div class="card bg-dark border-warning" style={{ maxWidth: '38rem' }}>
+                    <h3 style={{ color: 'skyblue' }} class="card-header text-center">Junior React JS Developer</h3>
                     <div class="card-body text-warning row d-flex justify-content-center">
                         <img style={{ width: '250px' }} src={MyImg} alt="" className="img-fuid col-md-6" />
                         <div className="col-md-6 mt-2">
@@ -18,6 +19,9 @@ const About = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div>
+                <SkillOfMine />
             </div>
         </div>
     );

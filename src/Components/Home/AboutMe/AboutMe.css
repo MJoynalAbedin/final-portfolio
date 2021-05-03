@@ -1,6 +1,7 @@
 .myImage img{
-    border-radius: 20px;
+    border-radius: 10px;
 }
 .section-1{
-    background-color: #EBEFF3;
+    background-color: #121212;
+    color: white
 }

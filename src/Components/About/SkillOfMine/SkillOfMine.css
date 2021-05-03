@@ -1,0 +1,21 @@
+.expertise{
+    border: 1px solid skyblue;
+    padding: 5px;
+    color: skyblue;
+    border-radius: 5px;
+    margin: 5px;
+}
+.comfortable{
+    border: 1px solid goldenrod;
+    padding: 5px;
+    color: goldenrod;
+    border-radius: 5px;
+    margin: 5px;
+}
+.familiar{
+    border: 1px solid red;
+    padding: 5px;
+    color: red;
+    border-radius: 5px;
+    margin: 5px;
+}
