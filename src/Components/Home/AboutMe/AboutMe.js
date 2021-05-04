@@ -5,18 +5,18 @@ import './AboutMe.css'
 
 const AboutMe = () => {
     return (
-        <div style={{fontFamily: 'Georgia'}} className="mb-5">
+        <div style={{ fontFamily: 'Georgia' }} className="mb-5">
             <div className="d-flex justify-content-center">
                 <h3 className="mb-3">____ABOUT ME____</h3>
             </div>
             <section className="section-1 pb-5">
-                <div className="container">
+                <div className="container-fluid">
                     <div className="row p-5">
                         <div className="col-md-5 myImage">
                             <img className="img-fluid" src={MyPic} alt="" />
                         </div>
                         <div className="col-md-7 align-self-center mt-2">
-                            <h2 style={{ marginBottom: '-15px' }}>I'm <span style={{color: '#FF5722'}}>Joynal Abedin</span></h2>
+                            <h2 style={{ marginBottom: '-20px' }}>I'm <span style={{ color: '#FF5722' }}>Joynal Abedin</span></h2>
                             <p className="text-secondary my-5">
                                 As you've already known what I am inn brief, but Maybe I should describe myself a little bit more. Starting with my background, I live at Chattogram town in Bangladesh. I am a learner rather being a student and that makes me learn something new everyday.
                             <br />
@@ -26,7 +26,7 @@ const AboutMe = () => {
                         </div>
                     </div>
                     <div className="text-center">
-                        <h4>MY <span style={{color: '#FF5722'}}>SERVICES</span></h4>
+                        <h4>MY <span style={{ color: '#FF5722' }}>SERVICES</span></h4>
                         <hr />
                     </div>
                     <MyServices />

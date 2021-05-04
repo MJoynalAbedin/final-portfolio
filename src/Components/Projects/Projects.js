@@ -7,7 +7,7 @@ const Projects = () => {
     return (
         <div style={{backgroundColor: '#292929', height: '100%', paddingTop: '80px', paddingBottom: '15px',color: 'white', fontFamily: 'Goergia'}}>
             <Nav />
-            <h1 style={{fontSize: '3.8rem'}} className="text-center">My <span style={{color: '#FF5722'}}> Portfolio </span></h1>
+            <h1 className="text-center my-portfolio">My <span style={{color: '#FF5722'}}> Portfolio </span></h1>
             <FirstTwo />
             <Footer />
         </div>

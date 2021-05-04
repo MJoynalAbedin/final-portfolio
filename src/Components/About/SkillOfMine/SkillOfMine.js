@@ -4,8 +4,8 @@ import './SkillOfMine.css'
 const SkillOfMine = () => {
     return (
 
-        <div style={{fontFamily:'Georgia'}} className="container">
-            <h1 style={{ color: 'white'}} className="text-center mb-5">My <span style={{color: '#FF5722'}}>Skills</span></h1>
+        <div style={{ fontFamily: 'Georgia' }} className="container">
+            <h1 style={{ color: 'white' }} className="text-center mb-5">My <span style={{ color: '#FF5722' }}>Skills</span></h1>
             <div className="row">
                 <div className="col-md-4">
                     <h5 className="text-center text-info">EXPERTISE</h5>
@@ -20,26 +20,36 @@ const SkillOfMine = () => {
                     <div className="row d-flex justify-content-center">
                         <div className="comfortable col-3">JavaScript</div>
                         <div className="comfortable col-3">ES6</div>
-                        <div className="comfortable col-3">React JS</div> <br/>
+                        <div className="comfortable col-3">React JS</div> <br />
                         <div className="comfortable col-3">Material UI</div>
                         <div className="comfortable col-3">React Bootstrap</div>
                         <div className="comfortable col-3">Firebase</div>
-                        <div className="comfortable col-3">Node JS</div> <br/>
+                        <div className="comfortable col-3">Node JS</div> <br />
                         <div className="comfortable col-3">Express JS</div>
                         <div className="comfortable col-3">MongoDB</div>
                     </div>
                 </div>
-                <div className="col-md-4">
+                <div className="col-md-4 familiar-div">
                     <h5 className="text-center text-danger">FAMILIAR WITH</h5>
                     <div className="row d-flex justify-content-center">
                         <div className="familiar col-3">Redux</div>
                         <div className="familiar col-3">React Native</div>
                         <div className="familiar col-3">Stripe</div>
                         <div className="familiar col-3">TypeScript</div>
-                        <div className="familiar col-3">EcmaScript </div>
                         <div className="familiar col-3">Next JS</div>
                         <div className="familiar col-3">Vue JS</div>
                     </div>
+                </div>
+            </div>
+            <div className="container mt-4">
+                <h5 style={{color: 'pink'}} className="text-center">TOOLS AND HOSTINGS</h5>
+                <div className="row d-flex justify-content-center">
+                    <div className="tools-host col-3 text-center">Git</div>
+                    <div className="tools-host col-3 text-center">npm</div>
+                    <div className="tools-host col-3 text-center">heroku</div>
+                    <div className="tools-host col-3 text-center">netlify</div>
+                    <div className="tools-host col-3 text-center">GitHub</div>
+                    <div className="tools-host col-3 text-center">cmd</div>
                 </div>
             </div>
             {/* <div className="row">

@@ -17,9 +17,9 @@ const sendEmail = e => {
 
 const Contact = () => {
     return (
-        <section style={{ height: '100vh', fontFamily: "calibri", backgroundColor: '#292929', paddingTop: '80px' }} className="contact">
+        <section style={{ height: '100vh', fontFamily: "Goergia", backgroundColor: '#292929', paddingTop: '100px' }} className="contact">
             <Nav />
-            <div className="text-white text-center">
+            <div className="text-white text-center contact-text">
                 <h2> <span style={{ color: '#FF5722' }}>CONTACT</span> ME</h2>
                 <h5 className="text-warning">I Would Really Like To Hear From You!</h5>
             </div>
