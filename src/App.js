@@ -1,13 +1,9 @@
-import React from 'react';
-import Home from './Components/Home/Home';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route
-} from "react-router-dom";
-import Projects from './Components/Projects/Projects';
-import Contact from './Components/Contact/Contact';
-import About from './Components/About/About';
+import React from "react";
+import Home from "./Components/Home/Home";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Projects from "./Components/Projects/Projects";
+import Contact from "./Components/Contact/Contact";
+import About from "./Components/About/About";
 
 function App() {
   return (
